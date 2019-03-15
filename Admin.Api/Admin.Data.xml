@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Admin.Data</name>
+    </assembly>
+    <members>
+        <member name="T:Admin.Data.EntityModel.Customer">
+            <summary>
+            注册客户实体类
+            </summary>
+        </member>
+        <member name="P:Admin.Data.EntityModel.Customer.ID">
+            <summary>
+            主键ID 一般为guid类型
+            </summary>
+        </member>
+        <member name="P:Admin.Data.EntityModel.Customer.Name">
+            <summary>
+            客户名称
+            </summary>
+        </member>
+        <member name="P:Admin.Data.EntityModel.Customer.ComputeInfo">
+            <summary>
+            注册的电脑信息
+            </summary>
+        </member>
+        <member name="P:Admin.Data.EntityModel.Customer.Code">
+            <summary>
+            注册后的登陆账号
+            </summary>
+        </member>
+        <member name="P:Admin.Data.EntityModel.Customer.Password">
+            <summary>
+            登陆密码
+            </summary>
+        </member>
+        <member name="P:Admin.Data.EntityModel.Customer.IsEnable">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="P:Admin.Data.EntityModel.Customer.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Admin.Data.EntityModel.Customer.ModifyTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="T:Admin.Data.EntityModel.CustomerSysModule">
+            <summary>
+            客户模块表
+            </summary>
+        </member>
+        <member name="P:Admin.Data.EntityModel.CustomerSysModule.ID">
+            <summary>
+            主键id 自增类型
+            </summary>
+        </member>
+        <member name="P:Admin.Data.EntityModel.CustomerSysModule.CustomerID">
+            <summary>
+            客户主键
+            </summary>
+        </member>
+        <member name="P:Admin.Data.EntityModel.CustomerSysModule.SysModuleID">
+            <summary>
+            模块主键
+            </summary>
+        </member>
+        <member name="P:Admin.Data.EntityModel.CustomerSysModule.ExpTime">
+            <summary>
+            过期时间
+            </summary>
+        </member>
+        <member name="P:Admin.Data.EntityModel.CustomerSysModule.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Admin.Data.EntityModel.CustomerSysModule.ModifyTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="P:Admin.Data.EntityModel.CustomerSysModule.IsEnable">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="T:Admin.Data.ViewModel.CustomerRegisterDto">
+            <summary>
+            客户注册实体类
+            </summary>
+        </member>
+        <member name="P:Admin.Data.ViewModel.CustomerRegisterDto.Name">
+            <summary>
+            客户名称
+            </summary>
+        </member>
+        <member name="P:Admin.Data.ViewModel.CustomerRegisterDto.ComputeInfo">
+            <summary>
+            注册的电脑信息
+            </summary>
+        </member>
+        <member name="P:Admin.Data.ViewModel.CustomerRegisterDto.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+    </members>
+</doc>

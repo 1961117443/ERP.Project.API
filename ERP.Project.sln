@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admin.Api", "Admin.Api\Admin.Api.csproj", "{F9D0C3CA-25AF-459B-8D75-3814004BB677}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Admin.Api", "Admin.Api\Admin.Api.csproj", "{F9D0C3CA-25AF-459B-8D75-3814004BB677}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admin.Data", "Admin.Data\Admin.Data.csproj", "{F5C88D9E-FB59-4D4C-B28B-C82A1C3E8E75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Admin.Data", "Admin.Data\Admin.Data.csproj", "{F5C88D9E-FB59-4D4C-B28B-C82A1C3E8E75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admin.IService", "Admin.IService\Admin.IService.csproj", "{7B4DDB8E-49C4-4D77-B787-2EDBB9C68314}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Admin.IService", "Admin.IService\Admin.IService.csproj", "{7B4DDB8E-49C4-4D77-B787-2EDBB9C68314}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admin.Service", "Admin.Service\Admin.Service.csproj", "{04A2864A-F615-414F-804F-84EF0A7F1433}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Admin.Service", "Admin.Service\Admin.Service.csproj", "{04A2864A-F615-414F-804F-84EF0A7F1433}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.API", "01.API", "{E4CB1664-ED7F-4560-BDD6-368DAF03437F}"
 EndProject
@@ -17,7 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.BLL", "02.BLL", "{0F9AA2
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.DATA", "03.DATA", "{016EA55E-18FF-4F88-9E13-E39288320713}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admin.Common", "Admin.Common\Admin.Common.csproj", "{B2F6B27B-968D-492C-82A6-1107CDC4F259}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Admin.Common", "Admin.Common\Admin.Common.csproj", "{B2F6B27B-968D-492C-82A6-1107CDC4F259}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

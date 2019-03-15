@@ -4,9 +4,8 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="EntityModel\" />
-    <Folder Include="ViewModel\" />
-  </ItemGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>..\Admin.Api\Admin.Data.xml</DocumentationFile>
+  </PropertyGroup>
 
 </Project>
