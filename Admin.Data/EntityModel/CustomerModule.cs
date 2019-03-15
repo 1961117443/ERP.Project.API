@@ -7,7 +7,7 @@ namespace Admin.Data.EntityModel
     /// <summary>
     /// 客户模块表
     /// </summary>
-    public class CustomerSysModule
+    public class CustomerModule
     {
         /// <summary>
         /// 主键id 自增类型
@@ -21,6 +21,10 @@ namespace Admin.Data.EntityModel
         /// 模块主键
         /// </summary>
         public string SysModuleID { get; set; }
+        /// <summary>
+        /// 模块名称
+        /// </summary>
+        public string ModuleName { get; set; }
         /// <summary>
         /// 过期时间
         /// </summary>

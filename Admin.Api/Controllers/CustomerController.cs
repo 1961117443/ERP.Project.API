@@ -59,7 +59,18 @@ namespace Admin.Api.Controllers
         /// <param name="id">客户id</param>
         /// <returns></returns>
         [HttpPost]
-        public IActionResult Check(string id)
+        public IActionResult GetModuleList(string id)
+        {
+            return Ok();
+        }
+
+        /// <summary>
+        /// 客户注册模块
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="modules"></param>
+        /// <returns></returns>
+        public IActionResult ModuleRegister(string id,string[] modules)
         {
             return Ok();
         }
