@@ -7,7 +7,7 @@ namespace Admin.Data.ViewModel
     /// <summary>
     /// 客户注册实体类
     /// </summary>
-    public class CustomerRegisterDto
+    public class CustomerCreateDto
     {
         /// <summary>
         /// 客户名称

@@ -13,8 +13,6 @@ namespace Admin.IService
         void Register();
         void UpdateModule();
         void RegisterModuel();
-        void GetModuleList();
-        void Get();
-        void Update();
+        void GetModuleList(); 
     }
 }

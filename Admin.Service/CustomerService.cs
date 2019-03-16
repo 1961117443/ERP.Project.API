@@ -3,21 +3,28 @@ using Admin.IService;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Admin.Service
 {
-    public class CustomerService : ICustomerService
+    public class CustomerService : BaseService<Customer>, ICustomerService
     {
-        public void Add(Customer entity)
-        {
-            throw new NotImplementedException();
-        }
 
-        public void Get()
+        public override async Task<Customer> Find(object id)
         {
-            throw new NotImplementedException();
+            return GetData().Find(w => w.ID.Equals(id));
+            //var customer = await Task.Run(() => new Customer
+            //{
+            //    Code = "0001",
+            //    ComputeInfo = "GZM140",
+            //    CreateTime = DateTime.Today.AddDays(-7),
+            //    ID = Guid.NewGuid().ToString(),
+            //    IsEnable = true,
+            //    Name = "测试客户01",
+            //    Password = "123456"
+            //});
+           // return customer;
         }
-
         public void GetModuleList()
         {
             throw new NotImplementedException();
@@ -29,11 +36,6 @@ namespace Admin.Service
         }
 
         public void RegisterModuel()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Update()
         {
             throw new NotImplementedException();
         }
